@@ -5,7 +5,6 @@ export const useFetching = (cb) => {
   const [error, setError] = useState("");
 
   const fetching = async (...args) => {
-    console.log(...args);
     try {
       setIsLoading(true);
       await cb(...args);
