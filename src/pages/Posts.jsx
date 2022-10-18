@@ -45,7 +45,12 @@ const Posts = () => {
 
   useEffect(() => {
     fetchPosts();
-  }, [currentPage, entriesPerPage]);
+  }, []);
+
+  useEffect(() => {
+    if (filter.query) return;
+    fetchPosts();
+  }, [currentPage, entriesPerPage, filter.query]);
 
   const createPost = (newPost) => {
     setPosts([newPost, ...posts]);

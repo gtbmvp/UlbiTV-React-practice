@@ -7,8 +7,11 @@
 #root {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0 15px;
+}
+
+.menu {
+  max-width: 512px;
 }
 
 .menu > *:not(:last-child) {
@@ -20,7 +23,8 @@
 }
 
 .post {
-  width: 1024px;
+  max-width: 1024px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
