@@ -1,0 +1,15 @@
+.myBtn {
+  padding: 5px 15px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+  background-color: #444240;
+  cursor: pointer;
+  border: 0px;
+}
+
+.myBtn:hover {
+  color: #000;
+  background-color: #d4b098;
+}

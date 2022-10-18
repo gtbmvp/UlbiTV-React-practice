@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #444240;
+}
+
+.link:hover {
+  font-weight: bold;
+}

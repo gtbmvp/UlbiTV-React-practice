@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 20px 0 100px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page {
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #444240;
+  border: 0px;
+
+  cursor: pointer;
+}
+
+.active {
+  color: #000;
+  background-color: #d4b098;
+}
